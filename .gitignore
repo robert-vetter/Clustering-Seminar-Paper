@@ -1,2 +1,18 @@
-.ipynb_checkpoints/
+# Python
 __pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Models / generated artifacts
+models/
+*.keras
+*.h5
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
