@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you reference this project, please cite the seminar paper below."
+title: "Automated Multi-Object Clustering Using Machine Learning"
+abstract: >-
+  A system that automatically selects the most suitable clustering algorithm
+  (K-Means, DBSCAN, OPTICS, or GMM) for a given 2-D dataset. A three-stage
+  pipeline (anomaly detection, shape recognition, feature extraction) reduces a
+  dataset to 10 geometric/statistical features, which a small neural network
+  maps to the recommended algorithm. Developed as a school seminar project
+  (Seminarfacharbeit) with Fraunhofer IIS (Nuremberg) as external scientific
+  advisors.
+type: dataset
+authors:
+  - family-names: Jacob
+    given-names: Hagen
+  - family-names: König
+    given-names: Jan Edgar
+  - family-names: Vetter
+    given-names: Robert
+date-released: "2023-12-21"
+keywords:
+  - clustering
+  - algorithm selection
+  - neural network
+  - machine learning
+  - unsupervised learning
+license: MIT

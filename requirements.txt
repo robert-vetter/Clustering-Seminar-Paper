@@ -1,0 +1,14 @@
+# Tested with Python 3.10/3.11.
+# TensorFlow is only needed to train/evaluate the network (src/model.py,
+# src/train.py, src/evaluate.py). The feature pipeline (anomaly detection,
+# shape recognition, feature extraction) runs without it.
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+scipy==1.13.1
+matplotlib==3.8.4
+opencv-python==4.9.0.80
+scikit-image==0.23.2
+shapely==2.0.4
+openpyxl==3.1.2
+tensorflow==2.15.0
