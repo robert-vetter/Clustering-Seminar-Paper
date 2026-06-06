@@ -7,11 +7,11 @@
 **External scientific guidance:** Dr. Wolfgang Felber and Christopher Sobel, Fraunhofer IIS, Nuremberg
 **Type:** Secondary-school research project (*Seminarfacharbeit*, grades 11/12, 2022–2024)
 
-> This is a student/seminar research report. It is **not** peer-reviewed and is
-> not a journal or conference publication. It is an English write-up of the
-> original German seminar paper ([`seminar-paper.pdf`](seminar-paper.pdf)), with
-> results reproduced from the project's code and committed data. All reported
-> metrics are on **synthetic** data unless stated otherwise.
+> This is a secondary-school seminar research project (*Seminarfacharbeit*). It is
+> an English write-up of the original German seminar paper
+> ([`seminar-paper.pdf`](seminar-paper.pdf)), with results reproduced from the
+> project's code and committed data. All reported metrics are on **synthetic**
+> data unless stated otherwise.
 
 ---
 
@@ -346,7 +346,7 @@ We are explicit about the boundaries of the result:
 
 A candid statement of these limits is part of representing the work honestly: the
 project is a strong, complete research effort at the secondary-school level, not
-a production or peer-reviewed system.
+a production system.
 
 ## 9. Conclusion and future work
 
