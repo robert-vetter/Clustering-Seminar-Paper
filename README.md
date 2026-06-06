@@ -127,7 +127,7 @@ This project received:
 - **1st Prize, Jugend forscht** (regional)
 - **Fraunhofer IDMT Special Prize**
 - **Albert Schweitzer School Prize** (Mathematics & Computer Science)
-- **1st Prize, Inverso Software Challenge** (€10,000+ in prize money)
+- **1st Prize, Inverso Software Challenge** (€1,000+ in prize money)
 
 ## Authors and acknowledgments
 
