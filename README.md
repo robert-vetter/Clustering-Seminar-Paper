@@ -57,19 +57,25 @@ generating structure (a design assumption — details and caveats in
 
 ## Results
 
-On a held-out split of the **synthetic** dataset, the network reaches
-**≈99.8% accuracy** (99.81% reported in the paper; the committed notebook run
-logged 99.90%).
+On a held-out split of the **synthetic** dataset, the classifier reaches
+**99.81% accuracy**, with near-uniform per-class F1 ≈ 0.998 (two
+misclassifications out of 1,037). Results are from a reproducible run (seed 42)
+on the committed data; the original notebook independently logged ≈99.90%.
 
-![Training curves](figures/07_training_curves.png)
+| Training curves | Confusion matrix |
+|---|---|
+| ![Training curves](figures/07_training_curves.png) | ![Confusion matrix](figures/08_confusion_matrix.png) |
 
-*Training/validation accuracy and loss, reconstructed from the real 100-epoch
-training log.*
+*Left: training/validation accuracy and loss over 100 epochs. Right: confusion
+matrix on the synthetic test split. Both from the seed-42 reproduction run.*
 
 **This is synthetic validation, not real-world performance.** The companion
 article reports roughly **70%** on real-world datasets, and the paper notes the
 method was tested mainly on synthetic and only a few real datasets. The gap
 between synthetic and real performance is the main limitation.
+
+📄 **Full details:** see the [**Technical Report**](paper/TECHNICAL_REPORT.md)
+(methodology, equations, experiments, per-class metrics, references).
 
 ## How to run
 
