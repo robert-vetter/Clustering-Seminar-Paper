@@ -41,6 +41,11 @@ def load_xy(data_path: Path = DATA_PATH):
 
 
 def main() -> None:
+    import tensorflow as tf
+
+    # Seed everything for a reproducible run (the report's results use seed 42).
+    tf.keras.utils.set_random_seed(42)
+
     X, y = load_xy()
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
