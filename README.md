@@ -118,11 +118,10 @@ network needs it.
 
 This project received:
 
-- **Albert-Schweitzer-Schulpreis**
-- **Jugend forscht** — 1st place (regional) and a Fraunhofer IDMT special prize
-- **Inverso Software Challenge** — 1st place
-
-*(Award details to be finalised from the authors' records.)*
+- **1st Prize, Jugend forscht** (regional)
+- **Fraunhofer IDMT Special Prize**
+- **Albert Schweitzer School Prize** (Mathematics & Computer Science)
+- **1st Prize, Inverso Software Challenge** (€10,000+ in prize money)
 
 ## Authors and acknowledgments
 
